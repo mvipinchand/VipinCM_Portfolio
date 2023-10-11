@@ -1,6 +1,6 @@
-baseURL: "https://arkalim.org"
+baseURL: "https://arkalim.org"    #netliffy free sub domain
 languageCode: en-us
-title: Abdur Rahman
+title: Vipin Chandran Muthirikkaparambil
 theme: PaperMod
 
 menu:
@@ -9,9 +9,9 @@ menu:
       name: Home
       url: /
       weight: 10
-    - identifier: blog
-      name: Blog
-      url: /blog
+    - identifier: Certifications
+      name: Certifications
+      url: /Certifications
       weight: 20
     - identifier: projects
       name: Projects
@@ -48,11 +48,11 @@ params:
   # Home Page
   profileMode:
     enabled: true
-    title: "Abdur Rahman"
-    subtitle: Hi 👋! I'm Abdur, an ambitious DevOps Intern at [**16Bit.ai**](https://www.16bit.ai), an innovative healthcare startup in Toronto. Currently pursuing my [**MSc in Applied Computing**](https://mscac.utoronto.ca/) at the esteemed University of Toronto, I bring a solid foundation in Software Engineering with professional experience. I am captivated by the realm of Cloud Computing and DevOps practices, seeking to revolutionize how we deploy applications in the modern era. To enhance my expertise, I have also obtained AWS associate-level certifications as a Solutions Architect and Developer, further bolstering my skills in the cloud computing domain. My unwavering curiosity and drive push me to explore fresh avenues to redefine technological frontiers. During my leisure hours, I channel my creativity into crafting engaging YouTube 🎬 videos, where I share my journey as an international student in Canada 🇨🇦.
-    imageUrl: "home/formal-pic-small.jpeg"
-    imageWidth: 220
-    imageHeight: 220
+    title: "Vipin Chandran Muthirikkaparambil"
+    subtitle: Hello! I'm Vipin, currently pursuing my [**Masters of Engineering (M.Eng) in Systems and Technology with specialization in Automation and Smart Systems**](https://www.eng.mcmaster.ca/sept/programs/degree-options/meng-st-systems-technology/#tab-content-automation-smart-systems) at the esteemed **McMaster University**, Hamilton, ON, Canada. I bring a solid foundation in Software Engineering with couple of years of industrial professional experience. To enhance my expertise, I have also obtained AWS associate-level certifications as a Solutions Architect and Developer, further bolstering my skills in the cloud computing domain. My unwavering curiosity and drive push me to explore fresh avenues to redefine technological frontiers. 
+    imageUrl: "home/vipin.jpg"
+    imageWidth: 320
+    imageHeight: 410
     # buttons:
     #   - name: Resume
     #     url: ""
@@ -67,15 +67,13 @@ params:
 
   socialIcons:
     - name: "email"
-      url: "mailto:abdur.rahman.kalim@gmail.com"
+      url: "mailto:vipinchandranm24@gmail.com"
     - name: "linkedin"
-      url: "https://www.linkedin.com/in/abdurrahmankalim"
+      url: "https://www.linkedin.com/in/mvipinchand"
     - name: "github"
-      url: "https://github.com/arkalim"
-    - name: "youtube"
-      url: "https://www.youtube.com/c/AbdurRahmanKalim"
+      url: "https://github.com/mvipinchand"
     - name: "cv"
-      url: "https://drive.google.com/file/d/1U6Gg2RnHSCthtWLbZJBlAEI3V1WGjZty/view"
+      url: "https://docs.google.com/document/d/1CaoNeV9-8Fd_fAc2OVlqjbjLnQ5CQbYY5XJCTlldN70/edit"   ##Make it view only PDF
 
   # text search
   fuseOpts:

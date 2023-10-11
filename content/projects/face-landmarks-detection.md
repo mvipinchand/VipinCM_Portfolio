@@ -1,13 +1,13 @@
 ---
-title: "Face Landmarks Detection using CNN"
-description: "Can computers really understand the human face?"
+title: "Multiple Disease Prediction System"
+description: "Diabetes, Heart Disease & Parkinsons Detection System"
 dateString: May 2020
 draft: false
 tags: ["DL", "AI", "Python", "PyTorch"]
 showToc: false
 weight: 205
 cover:
-    image: "projects/face-landmarks-detection/cover.jpg"
+    image: "projects/Multiple-Disease/cover.png"
 --- 
 ### 🔗 [Colab Notebook](https://colab.research.google.com/drive/1TOw7W_WU4oltoGZfZ_0krpxmhdFR2gmb)
 ### 🔗 [Blog Post](../../blog/face-landmarks-detection)

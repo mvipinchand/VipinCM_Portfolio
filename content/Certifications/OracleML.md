@@ -1,16 +1,24 @@
 ---
-title: "Kindle to Notion"
-description: "A way to seamlessly transfer your Kindle highlights to Notion Database!"
-dateString: Dec 2021
+title: "Oracle Machine Learning using Autonomous DB 2022 Certified Associate"
+description: "Expiration Date: January 09, 2025"
+dateString: 
 draft: false
 tags: ["TypeScript", "Node.JS", "REST API", "Integration"]
 weight: 103
 cover:
-    image: "/blog/kindle-to-notion/cover.jpg"
+    image: "/blog/kindle-to-notion/OCI_ML.jpg"
 ---
 
 # ✏️ Intro
-If you’re like me who loves reading books on Kindle, you might have wondered how you could extract your highlights in an organized way and save them as notes. At least I did. You see, I use Notion as my primary note-taking/productivity management app and I already have a database of all the books that I have read so far and also the ones that I am planning to read next.
+The Oracle Machine Learning using Autonomous Database 2022 Certified Associate has foundational knowledge of Oracle Machine Learning and its components, is familiar with machine learning techniques and algorithms, and has either performed the tasks covered in the exam or practiced them in labs or an environment. This candidate can create projects, workspaces, job schedules, templates and notebooks in Oracle Machine Learning and can run SQL and PLSQL scripts.
+
+# 🤖 Skills
+- Oracle Machine Learning Notebooks
+- Oracle Machine Learning on Autonomous Database
+- Oracle Machine Learning SQL
+- Oracle Machine Learning Templates
+- Oracle Machine Learning Jobs
+
 
 ![My Notion Books Database](/blog/kindle-to-notion/img1.jpg)
 

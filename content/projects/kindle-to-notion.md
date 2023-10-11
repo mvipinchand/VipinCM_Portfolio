@@ -1,21 +1,40 @@
 ---
-title: "Kindle to Notion"
-description: "A way to seamlessly transfer your Kindle highlights to Notion Database!"
+title: "SIOT based Biometric Ubiety Management using G-Spreadsheets"
+description: "Secured Internet of Things (SIoT) based portable biometric attendance system!"
 dateString: Dec 2021
 draft: false
 tags: ["TypeScript", "NodeJS", "Docker", "GitHub Actions"]
 showToc: false
 weight: 202
 cover:
-    image: "projects/kindle-to-notion/cover.jpg"
+    image: "projects/SIOT/cover.jpg"
 --- 
-### 🔗 [GitHub](https://github.com/arkalim/kindle-to-notion)
+### 🔗 [GitHub](https://github.com/mvipinchand/UG-Design-Project)
 
 ## Description
-I like reading personal improvement and mindset change type books on **Kindle** e-reader. Some of these books are downloaded straight from the internet and not from the Kindle store. I take highlights during my reading which I wanted to sync to my Notion workspace. There was no existing app that could do this job, so I developed my own. 
+The traditional process of manually taking and maintaining student attendance is highly inefficient and time consuming. The attendance monitoring system based on biometric authentication has a potential to streamline the whole process. A Secured Internet of Things (SIoT) based portable biometric attendance system can prove to be of great value to educational institutions in this regard as it proves to be highly efficient and secure. The cost involved in making this system is quite less, when compared to existing conventional biometric attendance system. The use of cloud computing to store the attendance records makes all the data easy to access and retrieve as end when required by the teachers. 
 
-Kindle exports the highlights as a file named `MyClippings.txt`. The **NodeJS** application reads the `MyClipping.txt` file exported by Kindle, parses it using Regex, extracts all the highlights, book names, highlight time etc and creates a JSON. It then uses **Notion API** to sync these highlights to a database in my Notion workspace. The app maintains a cache (JSON) containing the number of highlights synced for each book. This allows the highlights to be synced incrementally, preventing re-syncing of old highlights. 
+Build from scratch using **ESP8266 NodeMCU**, **R305 Fingerprint sensor**, **(16*2) Alphanumeric LCD**, **I2C Module**. NodeMCU is programmed to sync with Google sheets using Device ID and send data to the sheets using Pushingbox API.
 
-After the app was received well by the open-source community and other developers contributed to improve the app, I dockerized it to make shipping the app easier. Now, the users don’t have to install any dependency. They can just use the `docker run` command with the path to their clippings file along with their Notion API key and database ID. This would sync their highlights to their Notion database.
+The unique ID number of the student is recognised. The attendance data is logged into Google Spreadsheet by uploading the student’s ID number in it, For uploading the ID number in Google Spreadsheet, **PushingBox** API is used. After the attendance is granted, i.e. the ID is stored in Google Spreadsheet, the Fingerprint Comparison and Recognition process starts.
 
-As a part of automation, I implemented auto build and deployment of containers on push to the master branch using **GitHub Actions**. If a developer raises a pull request and I merge it to the master branch, the GitHub workflow automatically builds the app and deploys it to GitHub packages repository.
+## Algorithm
+
+1) Start
+2) Print “WELCOME”
+3) Print “BIOMETRIC ATTENDANCE”
+4) Enter password for respective subject
+5) Establishing WiFi Connection
+6) Searching for sensors
+7) Establishing Interface with sensors
+8) Then, Start fingerprint scanning
+9) Starting of loop
+10) If Fingerprint matches, then mark attendance to a[i]
+11) Sent attendance in a[i] to wifi and then show date and time.
+12) Using Pushing Box API upload it to google sheets
+13) Else Show INVALID
+14) Prepare an Cummulative at end of the month
+15) And share it to all using Google Classroom
+16) Remove the access by entering password again
+17) End outer loop
+18) Stop.
